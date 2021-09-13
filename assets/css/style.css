@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff /*057ad3*/;
+  color: #057ad3/*057ad3*/;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .menu-active a, .nav-menu a:hover {
-  color: #fff /*057ad3*/;
+  color: #057ad3/*057ad3*/;
 }
 
 .nav-menu > li {
@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #fff /*057ad3*/;
+  background-color: #057ad3 /*057ad3*/;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
