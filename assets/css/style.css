@@ -449,11 +449,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ----------------------------------------------- */
 .sign {
-  background-color: #057ad3;
   position: absolute;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   width: 40%;
   height: 20%;
   background-image: radial-gradient(
@@ -461,7 +460,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     #6b1839,
     transparent
   );
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   letter-spacing: 2;
   left: 50%;
   top: 50%;
@@ -828,6 +827,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .about-btn:hover {
   background: #057ad3;
   color: #fff;
+}
+
+#intro #intro-bottom{
+  padding-top: 100px;
 }
 
 @-webkit-keyframes pulsate-btn {
