@@ -499,7 +499,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   to {
     text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 10px #fff, 0 0 14px #fff, 0 0 15px #fff, 0 0 17px #fff, 0 0 20px #fff;
   }
-
+}
 #intro h1 span {
   color: #057ad3;
 }
