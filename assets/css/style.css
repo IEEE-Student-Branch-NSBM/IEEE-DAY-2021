@@ -641,7 +641,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-#myVideo {
+/* #myVideo {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -651,10 +651,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 0;
   bottom: 0;
   z-index: -1
-}
+} */
 
 #about {
-  /* background: url("../img/Security.jpg"); */
+  background: url("../img/Security.jpg");
   background-size : contain;
   overflow: hidden;
   position: relative;
@@ -708,6 +708,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #faq {
   padding: 60px 0;
+  background-color: #ebebeb;
 }
 
 #faq #faq-list {
@@ -904,7 +905,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*organized-by sec*/
 .organized-by-sec{
   background: url("../img/IEEE day.jpg");
-
 }
 
 
