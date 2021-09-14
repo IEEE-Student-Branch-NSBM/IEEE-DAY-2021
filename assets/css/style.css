@@ -641,8 +641,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1
+}
+
 #about {
-  background: url("../img/Security.jpg");
+  /* background: url("../img/Security.jpg"); */
   background-size : contain;
   overflow: hidden;
   position: relative;
