@@ -487,8 +487,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
-
-  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
@@ -497,7 +496,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   
   to {
-    text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 10px #fff, 0 0 14px #fff, 0 0 15px #fff, 0 0 17px #fff, 0 0 20px #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0), 0 0 7px rgba(255, 255, 255, 0), 0 0 10px rgba(255, 255, 255, 0), 0 0 14px rgba(255, 255, 255, 0), 0 0 15px rgba(255, 255, 255, 0), 0 0 17px rgba(255, 255, 255, 0), 0 0 20px rgba(255, 255, 255, 0);
   }
 }
 #intro h1 span {
@@ -654,8 +653,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 } */
 
 #about {
-  background: url("../img/Security.jpg");
-  background-size : contain;
+  background: url("../img/aboutImg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100%;
   overflow: hidden;
   position: relative;
   color: #ffff;
@@ -671,8 +672,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about:before {
+
   content: "";
-  background: #054b8196;
+  background: #00163bc4;
   position: absolute;
   bottom: 0;
   top: 0;
