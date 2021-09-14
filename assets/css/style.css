@@ -487,15 +487,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
+
+
+
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px
+     #fff, 0 0 70px #fff;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff, 0 0 40px #fff;
+  }
 
 #intro h1 span {
-  color: #057ad3;
+  color: #057ad3
+  ;
 }
 
 @media (max-width: 991px) {
   #intro h1 {
-    font-size: 34px;
+    font-size: 44px;
   }
 }
 
