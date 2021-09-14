@@ -488,18 +488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   text-transform: uppercase;
 
-  animation: glow 1s ease-in-out infinite alternate;
 }
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 14px #ffff, 0 0 15px #fff, 0 0 17px #fff;
-  }
-  
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 10px #fff, 0 0 14px #fff, 0 0 15px #fff, 0 0 17px #fff, 0 0 20px #fff;
-  }
-
 #intro h1 span {
   color: #057ad3;
 }
@@ -641,8 +630,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
 #about {
-  background: url("../img/Security.jpg");
+  background: url("../img/Secrity.jpg");
   background-size : contain;
   overflow: hidden;
   position: relative;
