@@ -151,17 +151,20 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: white;
-  height: 100px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(16px);
+  height: 64px;
   transition: all 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #header #logo img {
   padding: 0px !important;
   margin: 0px !important;
-  margin-top: -10px !important;
-  width: 65px;
+  margin-top: -22px !important;
+  width: 58px;
 }
+
 /* Nav Menu Essentials */
 .nav-menu,
 .nav-menu * {
@@ -223,7 +226,7 @@ h6 {
 #nav-menu-container {
   float: right;
   margin: 0;
-  margin-top: 10px;
+  margin-top: -10px;
 }
 
 @media (max-width: 991px) {
@@ -282,7 +285,7 @@ h6 {
   color: #fff;
   background: #057ad3;
   padding: 7px 22px;
-  border-radius: 50px;
+  border-radius: 64px;
   border: 2px solid #fff /*057ad3*/;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
@@ -294,6 +297,10 @@ h6 {
 
 .nav-menu li.buy-tickets a:hover {
   background: none;
+  color:#057ad3;
+  border: 2px solid #057ad3;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .nav-menu li.buy-tickets:hover a:before,
