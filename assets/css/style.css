@@ -1067,7 +1067,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #faq {
   padding: 60px 0;
-  background-color: #ebebeb;
+  background-color: #00163b;
 }
 
 #faq #faq-list {
@@ -1106,6 +1106,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq #faq-list p {
   margin-bottom: 20px;
   text-align: justify;
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -1118,11 +1119,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapse {
-  color: #057ad3;
+  color: #088cf1;
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: white;
 }
 
 #faq #faq-list a.collapsed i::before {
