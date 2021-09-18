@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  background: #00163b;
   color: #2f3138;
   font-family: "Ubuntu", sans-serif !important;
 }
@@ -1259,15 +1259,34 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*rsvp section*/
+#buy-tickets{
+  background-color:#00163b;
+}
 .rsvp {
-  background-color: #f6f7fd;
-  margin-top: -20px;
+  background-color: #00163b;
+  margin-top: 0px;
   padding: 20px;
+}
+
+.rsvp h2{
+  padding-bottom: 50px;
+}
+
+.rsvp_img{
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 40px -11px #03FFFF;
+  transition: 1s;
+}
+
+.rsvp_img:hover{
+  box-shadow: 0px 0px 76px -11px #03FFFF;
 }
 
 /*organized-by sec*/
 .organized-by-sec {
-  background: url("../img/IEEE day.jpg");
+  /* background: url("../img/IEEE day.jpg"); */
+  background-color: #00163b;
 }
 
 /*--------------------------------------------------------------
