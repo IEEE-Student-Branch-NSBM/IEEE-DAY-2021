@@ -107,6 +107,7 @@ h6 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 10px;
+  color: #f78e1e;
 }
 
 .section-header p {
@@ -485,11 +486,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   0%,
   22%,
   36%,
-  75% {
+  20% {
     color: #ffffff;
     text-shadow: 0 0 0.6rem #ffffff, 0 0 1.5rem #54fefe,
       -0.2rem 0.1rem 1rem #54fefe, 0.2rem 0.1rem 1rem #54fefe,
-      0 -0.5rem 2rem #28ffff, 0 0.5rem 3rem #28ffff;
+      0 -0.5rem 2rem ##4e66de, 0 0.5rem 3rem ##4e66de;
   }
   28%,
   33% {
@@ -498,7 +499,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   82%,
   97% {
-    color: #28ffff;
+    color: #fff;
     text-shadow: none;
   }
 }
@@ -513,7 +514,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @keyframes shine {
   0% {
-    color: #6b1839;
+    color: #fffff;
     text-shadow: none;
   }
   100% {
@@ -1066,7 +1067,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # F.A.Q Section
 --------------------------------------------------------------*/
 #faq {
-  padding: 60px 0;
+  padding: 300px 0;
   background-color: #00163b;
 }
 
