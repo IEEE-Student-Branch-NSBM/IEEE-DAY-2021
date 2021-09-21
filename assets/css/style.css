@@ -490,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #ffffff;
     text-shadow: 0 0 0.6rem #ffffff, 0 0 1.5rem #54fefe,
       -0.2rem 0.1rem 1rem #54fefe, 0.2rem 0.1rem 1rem #54fefe,
-      0 -0.5rem 2rem ##4e66de, 0 0.5rem 3rem ##4e66de;
+      0 -0.5rem 2rem #4e66de, 0 0.5rem 3rem#4e66de;
   }
   28%,
   33% {
@@ -514,7 +514,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @keyframes shine {
   0% {
-    color: #fffff;
+    color: #ffffff;
     text-shadow: none;
   }
   100% {
