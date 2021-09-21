@@ -1066,9 +1066,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
+#fa{
+
+font-color: #00163b;
+}
+
 #faq {
-  padding: 300px 0;
+  padding: 320px 0;
   background-color: #00163b;
+  margin-bottom:  -190px
 }
 
 #faq #faq-list {
