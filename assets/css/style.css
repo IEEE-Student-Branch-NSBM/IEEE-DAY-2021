@@ -4,6 +4,24 @@ body {
   font-family: "Ubuntu", sans-serif !important;
 }
 
+.thin-scrollbar::-webkit-scrollbar-track {
+  border-radius: 10px;
+  opacity: 0.3;
+  background-color: #19519c;
+}
+
+.thin-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  opacity: 0.3;
+  background-color: #19519c;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  opacity: 1;
+  background-color: #FFFFFF;
+}
+
 a {
   color: #057ad3;
   text-decoration: none;
