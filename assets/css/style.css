@@ -1094,9 +1094,9 @@ font-color: #00163b;
 }
 
 #faq {
-  padding: 320px 0;
+  padding-top: 10px;
   background-color: #00163b;
-  margin-bottom:  -190px
+  /*margin-bottom:  -190px;*/
 }
 
 #faq #faq-list {
