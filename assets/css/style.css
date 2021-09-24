@@ -1258,17 +1258,33 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets {
     background-color: #00163b;
+    width: 100%;
+}
+
+#buy-tickets .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .rsvp {
+    /* display: flex;
+    justify-content: center; */
     background-color: #00163b;
     margin-top: 0px;
     padding: 20px;
 }
 
-.rsvp h2 {
-    padding-bottom: 50px;
+.rsvp_imgage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 30px;
 }
+
+.rsvp_imgage {}
 
 .rsvp_img {
     margin-bottom: 50px;
