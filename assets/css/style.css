@@ -484,9 +484,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   font-size: 4em;
   color: #ffffff;
-  text-shadow: 0 0 0.6rem #ffffff, 0 0 1.5rem #54fefe,
-    -0.2rem 0.1rem 1rem #54fefe, 0.2rem 0.1rem 1rem #54fefe,
-    0 -0.5rem 2rem #28ffff, 0 0.5rem 3rem #28ffff;
+  text-shadow: 0 0 0.6rem #ffffff, 0 0 1.5rem #53acf0,
+    -0.2rem 0.1rem 1rem #0994ff, 0.2rem 0.1rem 1rem #0994ff,
+    0 -0.5rem 2rem #057ad3, 0 0.5rem 3rem #057ad3;
   animation: shine 2s forwards, flicker 3s infinite;
 }
 
@@ -500,7 +500,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@keyframes blink {
+/* @keyframes blink {
   0%,
   22%,
   36%,
@@ -520,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
     text-shadow: none;
   }
-}
+} */
 
 .flicker {
   animation: shine 2s forwards, blink 3s 2s infinite;
@@ -537,9 +537,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   100% {
     color: #ffffff;
-    text-shadow: 0 0 0.6rem #ffffff, 0 0 1.5rem #54fefe,
-      -0.2rem 0.1rem 1rem #54fefe, 0.2rem 0.1rem 1rem #54fefe,
-      0 -0.5rem 2rem #28ffff, 0 0.5rem 3rem #28ffff;
+    text-shadow: 0 0 0.6rem #ffffff, 0 0 1.5rem #53acf0,
+      -0.2rem 0.1rem 1rem #0994ff, 0.2rem 0.1rem 1rem #0994ff,
+      0 -0.5rem 2rem #057ad3, 0 0.5rem 3rem #057ad3;
   }
 }
 
@@ -908,7 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: #00163bc4;
+  background: #00163bea;
   position: absolute;
   bottom: 0;
   top: 0;
