@@ -977,7 +977,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .profile-img {
     margin-top: -60px;
     position: relative;
-    align-self: center;
+    align-self: justify;
     height: 150px;
     width: 150px;
     border-radius: 100%;
