@@ -1321,19 +1321,108 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*organized-by sec*/
 
+#org {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px 0;
+}
+
 .organized-by-sec {
-    /* background: url("../img/IEEE day.jpg"); */
+    width: 700px;
     background-color: white;
     border-radius: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;
+    padding: 40px;
+}
+
+.organized-by-sec .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.organized-by-sec .container .rows {
+    width: 700px;
+    display: flex;
+    margin: 10px 0 0;
+    padding-left: 130px;
+    flex-direction: row;
+}
+
+
+/* .organized-by-sec .container .rows {
+    width: 700px;
+    display: flex;
+    margin: 20px auto 0;
+    text-align: center;
+    justify-content: space-between
+} */
+
+.organized-by-sec .container .rows .col-md-6 img {
+    display: flex;
+    align-items: center;
+}
+
+.ieee-logo img {
+    width: 275px;
+    height: auto;
+}
+
+.wie-logo img {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 90px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .organized-by-sec {
+        margin: 0 20px 0;
+        width: 400px;
+    }
+    .organized-by-sec .container {
+        padding: 0%;
+    }
+    .organized-by-sec .container .rows {
+        width: 400px;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 70px 0;
+    }
+    .organized-by-sec .container .rows .col-md-6 {
+        margin-top: 0;
+    }
+    .ieee-logo img {}
+    .wie-logo img {
+        /* margin-top: 20px; */
+        margin-left: 90px;
+    }
 }
 
 @media (max-width: 500px) {
     .organized-by-sec {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: 0 20px 0;
+        width: 300px;
+    }
+    .organized-by-sec .container {
+        /* padding: 0%; */
+    }
+    .organized-by-sec .container .rows {
+        width: 300px;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 50px 0;
+    }
+    .organized-by-sec .container .rows .col-md-6 {
+        margin-top: 0;
+    }
+    .ieee-logo img {
+        width: 200px;
+    }
+    .wie-logo img {
+        /* margin-top: 20px; */
+        margin-left: 60px;
     }
 }
 
