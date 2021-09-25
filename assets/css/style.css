@@ -941,8 +941,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers {
     width: 100%;
-    margin: 50px 0 0 0;
-    padding: 0;
+    padding: 50px 0 0 0;
+    /* padding: 0; */
 }
 
 #speakers .container {
@@ -1063,7 +1063,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #faq {
-    padding-top: 20px;
+    padding-top: 60px;
     background-color: #00163b;
     /*margin-bottom:  -190px;*/
 }
@@ -1137,7 +1137,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #schedule {
-    margin-top: 60px;
+    padding-top: 60px;
     height: 1350px;
     align-items: center !important;
     /* background-image: url(../img/world_map.jpg); */
