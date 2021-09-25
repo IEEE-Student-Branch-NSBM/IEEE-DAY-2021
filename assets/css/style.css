@@ -1326,6 +1326,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: flex;
     justify-content: center;
     padding: 0 40px 0;
+    margin-bottom: 80px;
 }
 
 .organized-by-sec {
@@ -1377,6 +1378,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
+    #org {
+        margin-bottom: 40px;
+    }
     .organized-by-sec {
         margin: 0 20px 0;
         width: 400px;
