@@ -1290,7 +1290,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     /* justify-content: center; */
     background-color: #00163b;
     margin-top: 50px;
-    padding: 20px;
+    padding: 0 20px 0;
 }
 
 
