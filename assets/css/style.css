@@ -45,8 +45,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
@@ -1450,4 +1449,67 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     font-size: 13px;
     color: #ddd;
+}
+
+h6
+{
+    height: 60px;
+    width: 300px;
+    border-radius: 30px; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-bottom: 300PX;
+    padding-top: 60px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    cursor: pointer;
+}
+
+h6:hover
+{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+h6:before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 1s;
+}
+
+h6:hover:before
+{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
 }
