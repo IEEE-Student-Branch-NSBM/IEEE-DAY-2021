@@ -1320,6 +1320,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*organized-by sec*/
 
+#org1 {
+    margin-top: 0px;
+}
+
 #org {
     width: 100%;
     display: flex;
@@ -1451,48 +1455,50 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #ddd;
 }
 
-h6
-{
+
+
+/* reg-button */
+
+.reg-button {
+    margin-left: 300px;
+}
+
+h6 {
     height: 60px;
     width: 300px;
-    border-radius: 30px; 
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-bottom: 300PX;
-    padding-top: 60px;
-    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    /* top: 100%;
+    left: 50%; */
+    margin-bottom: 30PX;
+    padding-top: 14px;
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    font-size: 34px;
+    font-size: 28px;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background: linear-gradient(90deg, #19519c, #A74795, #BA1826, #F6A300, #20B2E2, #19519c);
     background-size: 400%;
     cursor: pointer;
 }
 
-h6:hover
-{
+
+h6:hover {
     animation: animate 8s linear infinite;
 }
 
-@keyframes animate
-{
-    0%
-    {
+@keyframes animate {
+    0% {
         background-position: 0%;
     }
-    100%
-    {
+    100% {
         background-position: 400%;
     }
 }
 
-h6:before
-{
+h6:before {
     content: '';
     position: absolute;
     top: -5px;
@@ -1500,16 +1506,31 @@ h6:before
     bottom: -5px;
     right: -5px;
     z-index: -1;
-    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background: linear-gradient(90deg, #19519c, #A74795, #BA1826, #F6A300, #20B2E2, #19519c);
     background-size: 400%;
     border-radius: 40px;
     opacity: 0;
     transition: 1s;
 }
 
-h6:hover:before
-{
+
+/*
+    #2D7992
+    #19519c
+    #A74795
+    #BA1826
+    #E5710A
+    #F6A300
+    #20B2E2
+    #7DB828
+    */
+
+h6:hover:before {
     filter: blur(20px);
     opacity: 1;
     animation: animate 8s linear infinite;
 }
+
+
+
+
