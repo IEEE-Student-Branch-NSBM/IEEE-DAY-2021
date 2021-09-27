@@ -45,8 +45,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
@@ -1457,6 +1456,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+
 /* reg-button */
 
 .reg-button {
@@ -1483,6 +1483,7 @@ h6 {
     background-size: 400%;
     cursor: pointer;
 }
+
 
 h6:hover {
     animation: animate 8s linear infinite;
@@ -1531,13 +1532,5 @@ h6:hover:before {
 }
 
 
-/*
-    #2D7992
-    #19519c
-    #A74795
-    #BA1826
-    #E5710A
-    #F6A300
-    #20B2E2
-    #7DB828
-    */
+
+
